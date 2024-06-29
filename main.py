@@ -2,10 +2,10 @@ import random
 
 def choose_word():
     words = ["apple", "banana", "cherry", "orange", "grape", "pear", "kiwi", "melon"]
- 
+    return random.choice(words)
 
 def display_word(word, guessed_letters):
-    display = ""    return random.choice(words)
+    display = ""
     for letter in word:
         if letter in guessed_letters:
             display += letter + " "
