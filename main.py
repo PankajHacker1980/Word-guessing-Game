@@ -2,7 +2,7 @@ import random
 
 def choose_word():
     words = ["apple", "banana", "cherry", "orange", "grape", "pear", "kiwi", "melon"]
-
+ 
 
 def display_word(word, guessed_letters):
     display = ""    return random.choice(words)
